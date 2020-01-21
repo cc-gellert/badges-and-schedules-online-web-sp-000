@@ -22,7 +22,7 @@ def assign_rooms(arr)
   roomArr
 end
 
-def printer(batch_badge_creator, assign_rooms)
+def printer(speakers)
   batch_badge_creator(speakers).each do |badge|
     puts badge
   end
